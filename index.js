@@ -101,3 +101,34 @@ function animatePress(currentColour) {
     z.removeClass("pressed");
   }, 100);
 }
+
+
+
+
+
+
+
+function myFunction(x) {
+  if (x.matches) { 
+
+
+    $(document).on("click", function() {
+
+      if (!started) {
+        setTimeout(function() {
+          nextSequence();
+        }, 500);
+        started = true;
+      }
+
+    })
+
+    
+
+
+  }
+}
+
+var x = window.matchMedia("(max-width: 1000px)");
+myFunction(x);          // Call listener function at run time
+x.addListener(myFunction); // Attach listener function on state changes
