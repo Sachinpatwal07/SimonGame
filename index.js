@@ -111,7 +111,7 @@ function animatePress(currentColour) {
 function myFunction(x) {
   if (x.matches) { 
 
-
+      $("#level-title").text("Click Screen To Start");
     $(document).on("click", function() {
 
       if (!started) {
