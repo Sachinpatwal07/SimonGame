@@ -26,6 +26,12 @@ body {
   border-radius: 20%;
 }
 
+@media (max-width:1000px) {
+  #level-title {
+    line-height: 2;
+  }
+}
+
 .game-over {
   background-color: red;
   opacity: 0.8;
